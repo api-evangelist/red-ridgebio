@@ -1,9 +1,28 @@
 aid: red-ridgebio
 name: Red RidgeBio
-description: 'Red RidgeBio is a company surfaced as a portfolio company of idg-capital and added to the
-  API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'RedRidge Bio is a clinical-stage biotechnology company that identifies and
+  develops biparatopic antibodies, an antibody class engineered to bind two distinct sites
+  (epitopes) on a single target protein for greater potency and selectivity. Its programs
+  span oncology (antibody-drug conjugates for solid tumors) and autoimmunity (immune-cell
+  modulators), pursued through partnerships and internal discovery. The company operates
+  from Basel, Switzerland with additional presence in Cambridge, Massachusetts and San
+  Francisco. RedRidge Bio was surfaced as a portfolio company of IDG Capital and added to
+  the API Evangelist network. It is a therapeutics developer and publishes no public
+  developer API, SDK, or technical documentation surface at this time; this profile
+  captures its identity and public web presence.'
 url: https://raw.githubusercontent.com/api-evangelist/red-ridgebio/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://framerusercontent.com/assets/NLXh4ABDKvnllsolRiwyIUG7wvI.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,11 +31,29 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 1
+  pass: local-v1
 tags:
 - Company
 - Healthcare
+- Biotechnology
+- Antibodies
+- Oncology
+- Autoimmune
+- Drug Development
+- Therapeutics
 apis: []
+common:
+- type: DomainSecurity
+  url: security/red-ridgebio-domain-security.yml
+- type: Website
+  url: https://redridgebio.com
+- type: Support
+  url: mailto:info@redridgebio.com
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
