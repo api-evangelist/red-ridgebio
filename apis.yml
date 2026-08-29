@@ -11,6 +11,17 @@ description: 'RedRidge Bio is a clinical-stage biotechnology company that identi
   developer API, SDK, or technical documentation surface at this time; this profile
   captures its identity and public web presence.'
 url: https://raw.githubusercontent.com/api-evangelist/red-ridgebio/refs/heads/main/apis.yml
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
